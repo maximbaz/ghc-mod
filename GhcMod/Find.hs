@@ -1,7 +1,6 @@
 {-# LANGUAGE CPP, BangPatterns, TupleSections, DeriveGeneric #-}
 
 module GhcMod.Find
-#ifndef SPEC
   ( Symbol
   , SymbolDb
   , loadSymbolDb
@@ -14,9 +13,7 @@ module GhcMod.Find
   , AsyncSymbolDb
   , newAsyncSymbolDb
   , getAsyncSymbolDb
-  )
-#endif
-  where
+  ) where
 
 import qualified GHC as G
 import FastString
