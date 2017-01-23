@@ -9,7 +9,7 @@ License:                AGPL-3
 License-File:           LICENSE
 License-Files:          COPYING.BSD3 COPYING.AGPL3
 Homepage:               https://github.com/DanielG/ghc-mod
-Synopsis:               Happy Haskell Programming
+Synopsis:               Happy Haskell Hacking
 Description:
   ghc-mod is a backend program to enrich Haskell programming in editors. It
   strives to offer most of the features one has come to expect from modern IDEs
@@ -22,7 +22,6 @@ Description:
   significantly extend ghc-mod you should submit these changes upstream instead
   of implementing them on top of the library.
 
-  For more information, please see its home page.
 
 Category:               GHC, Development
 Cabal-Version:          >= 1.18
@@ -366,4 +365,4 @@ Source-Repository head
 -- Note [GHC Boot libraries]
 --
 -- We don't give bounds to GHC boot libraries as our dependency on 'ghc' already
--- constrains these packages to the version that shipped with GHC
+-- constrains these packages to the version that shipped with GHC.
